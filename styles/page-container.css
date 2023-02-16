@@ -1,0 +1,22 @@
+/* page container */
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-container > .page-content {
+    width: 1000px;
+}
+
+.page-container > .page-content > #chef {
+    width: 350px;
+    float: left;
+    margin: 25px 20px 20px 0px;
+    border: 1px solid #cea135;
+}
+
+.page-container > .page-content p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    line-height: 30px;
+}

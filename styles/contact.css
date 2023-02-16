@@ -1,0 +1,34 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-container > .page-container-grid {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 150px;
+}
+
+.page-container > .page-container-grid > .company-metadata-details-wrapper > .company-logo {
+    margin-bottom: 50px;
+}
+
+.page-container > .page-container-grid > .company-metadata-details-wrapper > .company-logo img {
+    width: 100%;
+}
+
+.company-metadata-details-wrapper > .company-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "ubuntu condensed", sans-serif;
+    font-size: 1.25em;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.company-metadata-details-wrapper > .company-details i {
+   color: #cea135;
+}

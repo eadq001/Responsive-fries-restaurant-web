@@ -1,0 +1,68 @@
+/* skewed header */
+
+.skewed-header {
+    position: relative;
+    height: 400px;
+}
+
+.skewed-header > .header-bg {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    position: absolute;
+    filter: brightness(60%);
+
+}
+
+.skewed-header > .skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading {
+    color: #11122b;
+    font-family: "roboto slab", sans-serif;
+    background-color: #cea135;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 170px;
+    text-align: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    display: flex;
+    width: 900px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .nav-links {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .nav-links > .link {
+    width: 60px;
+    text-align: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .nav-links > .link a {
+    color:white;
+    text-decoration: none;
+    font-family: "ubuntu condensed", sans-serif;
+    transition: 0.6s;
+
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .nav-links > .link a:hover{
+    color:#cea135;
+    letter-spacing: 1px;
+}

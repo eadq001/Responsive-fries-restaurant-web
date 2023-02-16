@@ -1,0 +1,84 @@
+form input {
+    width: 100%;
+    padding: 1.5em 2em;
+    border: none;
+    border-bottom: 3px solid #11122b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25rem;
+    transition: all 0.3s;
+}
+
+
+form input::-webkit-input-placeholder, form textarea::-webkit-input-placeholder {
+    color: #11122b;
+}
+
+form input:focus::-webkit-input-placeholder, form textarea:focus::-webkit-input-placeholder {
+    visibility: hidden;
+}
+
+
+form label, textarea label {
+    transition: all 0.3s;
+    color: #cea135;
+    visibility: hidden;
+    opacity: 0;
+}
+
+form input:focus {
+    outline: none;
+    border-bottom: 3px solid #cea135;
+    box-shadow: 0px 5px 20px -2px rgba(0,0,0,0.2);
+}
+
+
+form input:focus + label,  form textarea:focus + label {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1rem);
+}
+
+form label {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 40px;
+}
+
+form textarea {
+    height: 300px;
+    width: 100%;
+    padding: 1.5em 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25em;
+    margin-top: 40px;
+    border: 3px solid #11122b;
+    transition: all 0.3s;
+}
+
+form textarea:focus {
+    outline: none;
+    border: 3px solid #cea135;
+    box-shadow: 0px 10px 20px -1px rgba(0,0,0,0.2)
+}
+
+
+.center-button-wrapper {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.center-button-wrapper > .sendButton {
+    background-color: #cea135;
+    border: 1px solid #cea135;
+    padding: 10px 25px;
+    border-radius: 2px;
+    font-size: 1.25em;
+    color: #11122b;
+}
+
+.center-button-wrapper > .sendButton:active {
+    box-shadow: 0px 5px 20px -2px rgba(0,0,0,0.2);
+
+}

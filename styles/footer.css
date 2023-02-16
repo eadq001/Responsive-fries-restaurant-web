@@ -1,0 +1,80 @@
+.footer {
+    background-color: #11122b;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -4px;
+}
+
+.footer > .banner-image img{
+    width: 250px;
+    opacity: 70%;
+    height: auto;
+}
+
+.footer > .contact-hours-wrapper {
+    color: white;
+    letter-spacing: 1px;
+    width: 220px;
+    font-family: "ubuntu condensed", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer > .contact-hours-wrapper > .open-hours {
+    font-size: 0.9em;
+    color: #cea135;
+}
+
+.footer > .nav-links{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-family: "ubuntu condensed", sans-serif;
+}
+
+.footer > .nav-links > .link a {
+    color: white;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.footer >.nav-links>.link a:hover {
+    color: #cea135;
+    letter-spacing: 1.5px;
+}
+
+.footer >.nav-links>.link {
+    width: 60px;
+    text-align: center;
+}
+
+.footer > .social-media-icons {
+    margin-top: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    height: 32px;
+}
+
+.footer > .social-media-icons a{
+    color: white;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.footer > .social-media-icons a:hover{
+    color: #cea135;
+}
+
+.footer > .author-copyright {
+    margin-top: 35px;
+    color: white;
+    font-family: "ubuntu condensed", sans-serif;
+    font-size: 0.7em;
+    opacity: 40%;
+}

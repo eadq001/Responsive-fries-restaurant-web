@@ -1,0 +1,40 @@
+/* squares */
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.squares-wrapper > .squares {
+    width: 1000px;
+}
+
+
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+}
+
+.squares-wrapper > .squares > .square > .image-wrapper img {
+    height:500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.squares-wrapper > .squares > .square > .text-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:40px
+}
+
+.squares-wrapper > .squares > .square > .text-wrapper h1 {
+    font-family: "roboto slab";
+    color: #cea135;
+}
+
+.squares-wrapper > .squares > .square > .text-wrapper p {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
