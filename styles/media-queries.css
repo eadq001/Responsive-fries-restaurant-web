@@ -24,10 +24,11 @@
     .nav-wrapper > .center-column {
         order: 1;
         width: 100%;
+        gap: 0.5rem;
     }
 
     .nav-wrapper > .center-column > .nav-links {
-        margin-top: -30px;
+        gap: 0.5rem;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -154,13 +155,12 @@
     }
 
     form input, form textarea {
-        width: auto;
+        max-width: 100%;
     }
 
     form textarea {
-        min-width: 360px;
+        max-width: 100%;
     }
-
     .center-button-wrapper {
         margin-top: 0;
     }
